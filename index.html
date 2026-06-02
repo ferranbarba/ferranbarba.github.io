@@ -69,11 +69,21 @@
 	    					<h2><a href="#" style="color: #fff; font-size: 48px;" data-toggle="modal" data-target="#modalMentat">MentatEngine</a></h2>
 	    					<span>Self-made Engine with OpenGL backend</span>
 							<br>
-	    					<span>COMING SOON</span>
+	    					<span>Try Now!</span>
 	    				</div>
     				</div>
   				</div>
-
+				<div class="col-md-6">
+    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/Railgun_1.gif);">
+    					<div class="overlay"></div>
+	    				<div class="text text-center p-4">
+	    					<h2><a href="#" style="color: #fff; font-size: 48px;" data-toggle="modal" data-target="#modalYuki">Yuki No Kazan</a></h2>
+	    					<span>Graphic Pipeline Reimplementation with OpenGL</span>
+							<br>
+	    					<span>Try Now!</span>
+	    				</div>
+    				</div>
+  				</div>
     			<div class="col-md-6">
     				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/Railgun_1.gif);">
     					<div class="overlay"></div>
@@ -121,20 +131,31 @@
 					<span aria-hidden="true">&times;</span>
 					</button>
 				</div>
-				<div class="modal-body">
-					<div class="text-center">
-						<iframe width="560" height="315" src="https://www.youtube.com/embed/F_aint-4KXc?si=CftLZbUdaMMpxYk-" 
+				<div class="modal-body d-flex flex-wrap">
+					<div class="col-md-7">
+						<iframe width="600" height="380" src="https://www.youtube.com/embed/F_aint-4KXc?si=CftLZbUdaMMpxYk-" 
 							title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
 							encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" 
 							allowfullscreen>
 						</iframe>
 					</div>
+					<div class="col-md-5">
+						<h3>Project Information</h3>
+						<p>Full Unreal Engine 5 game development with programming, art and design teams, aiming to release it to steam in June/July 2026.</p>
+						<h3>Details</h3>
+						<ul>
+							<li><strong>Category:</strong> Unreal Engine 5</li>
+							<li><strong>Developers:</strong> Blood Rites Studio</li>
+							<li><strong>Role:</strong> UI and Gameplay Programmer</li>
+						</ul>
+					</div>
 
 					<!-- Contenido personalizado del proyecto -->
-					<p>Aquí puedes escribir la descripción detallada de tu proyecto.</p>
+					<h3>What I Did</h3>
 					<ul>
-					<li><strong>Tecnologías:</strong> Unity, C#, Blender</li>
-					<li><strong>Duración:</strong> 2 semanas</li>
+						<li><strong>UI:</strong> Design and code of the entirety of the UI in the game using CommonUI Plugin.</li>
+						<li><strong>Gameplay:</strong> Minor developments and fixings in gameplay features to be able to use them in the UI.
+								InventoryComponent, SaveGameManager or InteractableComponent are some of them.</li>
 					</ul>
 				</div>
 				<div class="modal-footer" style="border-top: 1px solid #333;">
@@ -154,7 +175,98 @@
 					<span aria-hidden="true">&times;</span>
 					</button>
 				</div>
-				<div class="modal-body">
+				<div class="modal-body d-flex flex-wrap">
+					<div class="col-md-7">
+						<iframe width="600" height="380" src="https://www.youtube.com/embed/rZKPXoWKgLY?si=sfxKxjtnPWqaUXBY" 
+							title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+							encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" 
+							allowfullscreen>
+						</iframe>
+					</div>
+					<div class="col-md-5">
+						<h3>Project Information</h3>
+						<p>Game engine made from scratch using C++ and OpenGL backend, with a compatibility layer to add Vulkan in the future.</p>
+						<h3>Details</h3>
+						<ul>
+							<li><strong>Category:</strong> Core and Graphics Programming</li>
+							<li><strong>Developers:</strong> Ferran Barba and Sergi Sirvent</li>
+						</ul>
+					</div>
+
+					<div class="col-md-12">
+						<h3>Current Features</h3>
+					</div>
+					
+					<div class="col-md-6">
+						<ul>
+							<li>Entity Component System</li>
+							<li>Input System</li>
+							<li>Job System</li>
+							<li>Scripting in Lua with Start and Update functions working</li>
+							<li>Frustrum Culling working with Octrees</li>
+							<li>Abstraction of OpenGL basic Objects (such as Shader, Buffer or Program)</li>
+							<li>Four diferent rendering pipelines: Forward, Shadow Map, Deferred and PBR</li>
+							<li>Mesh and Texture Streaming with LODs and MipMaps generation</li>
+						</ul>
+					</div>
+					<div class="col-md-6">
+						<ul>
+							<li>Memory Budget system working automatic or by distance (customizable)</li>
+							<li>Save/Load of Scene using XML</li>
+							<li>File Explorer in with Drag and Drop for meshes, textures and scripts</li>
+							<li>Entity hierarchy with Drag and Drop to add or remove childs</li>
+							<li>Complete customized UI with ImGui Docker</li>
+							<li>Dynamic addition of entities and components</li>
+							<li>UI Gizmos for easy development</li>
+							<li>Port to Android</li>
+						</ul>
+					</div>
+
+					<div class="col-md-6">
+						<h3>Future Features</h3>
+							<ul>
+								<li>Vulkan Backend</li>
+							</ul>
+					</div>
+				</div>
+				<div class="modal-footer" style="border-top: 1px solid #333;">
+					<a href="https://sergi-sirvent.itch.io/railgun-defender-aegis" target="_blank" class="btn btn-primary">Check GitHub</a>
+					<!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> -->
+				</div>
+				</div>
+			</div>
+		</div>
+		<!-- YUKI NO KAZAN -->
+		<div class="modal fade" id="modalYuki" tabindex="-1" role="dialog" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+				<div class="modal-content" style="background-color: #1a1a1a; color: #fff; border: 1px solid #333;">
+				<div class="modal-header" style="border-bottom: 1px solid #333;">
+					<h5 class="modal-title" style="color: #fff;">Yuki No Kazan</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close" style="color: #fff;">
+					<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body d-flex flex-wrap">
+					<div class="col-md-7">
+						<iframe width="600" height="380" src="https://www.youtube.com/embed/Iy9fGn4GNnU?si=c73GkHsDfyzvziox" 
+							title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+							encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" 
+							allowfullscreen>
+						</iframe>
+					</div>
+					<div class="col-md-5">
+						<h3>Project Information</h3>
+						<p>Full Unreal Engine 5 game development with programming, art and design teams, aiming to release it to steam in June/July 2026.</p>
+						<h3>My Contribution</h3>
+						<ul>
+							<li><strong>UI:</strong> Design and code of the entirety of the UI in the game using CommonUI Plugin.</li>
+							<li><strong>Gameplay:</strong> Minor developments and fixings in gameplay features to be able to use them in the UI.
+								 InventoryComponent, SaveGameManager or InteractableComponent are some of them.</li>
+						</ul>
+					</div>
+
+
+					<img src="images/Railgun_1.gif" class="img-fluid rounded mb-3" alt="Gameplay GIF">
 
 					<!-- Contenido personalizado del proyecto -->
 					<p>Aquí puedes escribir la descripción detallada de tu proyecto.</p>
@@ -164,7 +276,7 @@
 					</ul>
 				</div>
 				<div class="modal-footer" style="border-top: 1px solid #333;">
-					<a href="https://sergi-sirvent.itch.io/railgun-defender-aegis" target="_blank" class="btn btn-primary">Check GitHub</a>
+					<a href="https://sergi-sirvent.itch.io/railgun-defender-aegis" target="_blank" class="btn btn-primary">Play on Itch.io</a>
 					<!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> -->
 				</div>
 				</div>
@@ -180,13 +292,25 @@
 					<span aria-hidden="true">&times;</span>
 					</button>
 				</div>
-				<div class="modal-body">
-					<div class="text-center">
-						<iframe width="560" height="315" src="https://www.youtube.com/embed/Iy9fGn4GNnU?si=c73GkHsDfyzvziox" 	
-							title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
-							gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+				<div class="modal-body d-flex flex-wrap">
+					<div class="col-md-7">
+						<iframe width="600" height="380" src="https://www.youtube.com/embed/Iy9fGn4GNnU?si=c73GkHsDfyzvziox" 
+							title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+							encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" 
+							allowfullscreen>
 						</iframe>
 					</div>
+					<div class="col-md-5">
+						<h3>Project Information</h3>
+						<p>Full Unreal Engine 5 game development with programming, art and design teams, aiming to release it to steam in June/July 2026.</p>
+						<h3>My Contribution</h3>
+						<ul>
+							<li><strong>UI:</strong> Design and code of the entirety of the UI in the game using CommonUI Plugin.</li>
+							<li><strong>Gameplay:</strong> Minor developments and fixings in gameplay features to be able to use them in the UI.
+								 InventoryComponent, SaveGameManager or InteractableComponent are some of them.</li>
+						</ul>
+					</div>
+
 
 					<img src="images/Railgun_1.gif" class="img-fluid rounded mb-3" alt="Gameplay GIF">
 
@@ -214,15 +338,25 @@
 					<span aria-hidden="true">&times;</span>
 					</button>
 				</div>
-				<div class="modal-body">
-					<div class="text-center">
-						<iframe width="560" height="315" src="https://www.youtube.com/embed/HF_zXyg-NE0?si=FiIAxdqlQV7be3ra" 
-							title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 		
+				<div class="modal-body d-flex flex-wrap">
+					<div class="col-md-7">
+						<iframe width="600" height="380" src="https://www.youtube.com/embed/HF_zXyg-NE0?si=FiIAxdqlQV7be3ra" 
+							title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
 							encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" 
 							allowfullscreen>
 						</iframe>
 					</div>
-					
+					<div class="col-md-5">
+						<h3>Project Information</h3>
+						<p>Full Unreal Engine 5 game development with programming, art and design teams, aiming to release it to steam in June/July 2026.</p>
+						<h3>My Contribution</h3>
+						<ul>
+							<li><strong>UI:</strong> Design and code of the entirety of the UI in the game using CommonUI Plugin.</li>
+							<li><strong>Gameplay:</strong> Minor developments and fixings in gameplay features to be able to use them in the UI.
+								 InventoryComponent, SaveGameManager or InteractableComponent are some of them.</li>
+						</ul>
+					</div>
+
 					<!-- Contenido personalizado del proyecto -->
 					<p>Aquí puedes escribir la descripción detallada de tu proyecto.</p>
 					<ul>
@@ -247,13 +381,23 @@
 					<span aria-hidden="true">&times;</span>
 					</button>
 				</div>
-				<div class="modal-body">
-					<div class="text-center">
-						<iframe width="560" height="315" src="https://www.youtube.com/embed/p97agygJIR0?si=9CmVBWNDOGbogyFs" 
+				<div class="modal-body d-flex flex-wrap">
+					<div class="col-md-7">
+						<iframe width="600" height="380" src="https://www.youtube.com/embed/p97agygJIR0?si=9CmVBWNDOGbogyFs" 
 							title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
 							encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" 
 							allowfullscreen>
 						</iframe>
+					</div>
+					<div class="col-md-5">
+						<h3>Project Information</h3>
+						<p>Full Unreal Engine 5 game development with programming, art and design teams, aiming to release it to steam in June/July 2026.</p>
+						<h3>My Contribution</h3>
+						<ul>
+							<li><strong>UI:</strong> Design and code of the entirety of the UI in the game using CommonUI Plugin.</li>
+							<li><strong>Gameplay:</strong> Minor developments and fixings in gameplay features to be able to use them in the UI.
+								 InventoryComponent, SaveGameManager or InteractableComponent are some of them.</li>
+						</ul>
 					</div>
 
 					<!-- Contenido personalizado del proyecto -->
